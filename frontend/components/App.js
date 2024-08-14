@@ -15,7 +15,7 @@ function App() {
 
   useEffect(() => {
 
-    function fetchPhoto () {
+    function fetchAPOD () {
       
       axios.get(URL)
       .then(res =>{
